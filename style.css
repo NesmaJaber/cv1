@@ -1,0 +1,214 @@
+@font-face {
+    font-family: 'driod';
+    src: url(fonts/Droid.Arabic.Kufi_DownloadSoftware.iR_.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'driod';
+}
+body{
+    background-color: #eee;
+}
+.logo{
+    background-color: transparent;
+    padding: 10px 50px;
+}
+.content-page{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+   
+}
+
+.content-page .cv-div{
+    background-color: #fff;
+    width: 65%;
+    border-radius: 40px;
+    box-shadow: 2px 2px 20px #b8b8b8 , -2px -2px 20px #b8b8b8 ;
+    
+}
+.content-page .cv-div .cv-content{
+    display: flex;
+    border-radius: 20px;
+    
+}
+.content-page .cv-div .right-side{
+    width: 40%;
+    color: #fff;
+    background-color: #161c1f;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+}
+.content-page .cv-div .right-side .personal-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 20px solid #ff914b;
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    margin: auto;
+    margin-top: 20px;
+}
+.content-page .cv-div .right-side .personal-img img{
+    width:150px;
+    height:150px;
+    border-radius: 50%;
+    border: 5px solid #fff;
+    
+
+}
+.content{
+    padding: 20px;
+}
+.title{
+    position: relative;
+    margin-top: 10px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-right: 10px;padding-right: 20px;
+}
+.title::before{
+    position: absolute;
+    content: "";
+    width: 10px;
+    height: 10px;
+    background-color: #ff914b;
+    border-radius: 50%;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    
+}
+.title-left{
+    position: relative;
+    margin-top: 10px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    padding-right: 20px;
+}
+.title-left::before{
+    position: absolute;
+    content: "";
+    width: 10px;
+    height: 10px;
+    background-color: #ff914b;
+    border-radius: 50%;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    
+}
+.des{
+   font-size: 14px;
+   margin-bottom: 30px;
+}
+ul{
+    padding: 0px 50px;
+}
+ul li{
+    list-style: circle;
+   
+}
+.content-page .cv-div .left-side{
+    width: 60%;
+    padding: 30px 0px;
+}
+
+.exp-details{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 35px;
+}
+.date{
+    width: 40%;
+}
+.exp{
+    position: relative;
+    width: 60%;
+    padding:0px 30px;
+}
+.card-experince{
+    margin-top: 20px;
+}
+.exp::before{
+    position: absolute;
+    content: "";
+    width: 3px;
+    height: 100%;
+    top: 0;
+    right: 0;
+    background-color: #ff914b;
+}
+.exp p{
+    font-size: 14px;
+    margin-bottom: 0;
+}
+
+.hr{
+   width: 100%;
+   height: 3px;
+   background-color: #ff914b;
+}
+.hr-2{
+    margin: auto;
+   width: 50%;
+   height: 3px;
+   background-color: #ff914b;
+}
+.email ,.phone ,.location{
+    gap: 7px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.name{
+    margin-right: 50px;
+}
+.job-description{
+    background-color: #ff914b;
+    padding: 5px 20px;
+    margin-right: 50px;
+    margin-bottom: 30px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    color: #fff;
+}
+.education ,.experince ,.language{
+    padding: 30px;
+}
+.language{
+    padding: 30px 50px;
+}
+.shapes{
+    display: flex;
+}
+.shapes .shap1{
+    width: 30%;
+    background-color: #ff914b;
+    height: 50px;
+    border-top-right-radius: 40px;
+}
+.shapes .shap2{
+    width: 75%;
+    background-color: #ff914b;
+    height: 50px;
+    margin-right: -40px;
+    margin-bottom: 3%;
+    border-bottom-right-radius: 40px;
+    border-top-left-radius: 40px;
+
+
+}
+.flex{
+    padding: 0 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
